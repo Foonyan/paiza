@@ -1,4 +1,6 @@
 'use strict'
+const divJuice = require('./div_juice');
+
 process.stdin.resume();
 process.stdin.setEncoding('utf8');
 
@@ -13,5 +15,5 @@ reader.on('line', (line) => {
 reader.on('close', () => {
 // 取得した値を標準出力するために"XXXXXX"をどう書き換える？
 // ヒント: input_lines[0]に1行目の値が保存されている
-  console.log("XXXXXX");
+  console.log(divJuice(Number(input_lines[0]),Number(input_lines[1])))
 });
