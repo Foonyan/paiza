@@ -1,3 +1,5 @@
+'use strict';
+
 process.stdin.resume();
 process.stdin.setEncoding('utf8');
 
@@ -12,7 +14,7 @@ reader.on('line', (line) => {
 reader.on('close', () => {
 // 取得した値を標準出力するために"XXXXXX"をどう書き換える？
 // ヒント: input_lines[0]に1行目の値が保存されている
-  for(line of input_lines) {
-    console.log(line); 
+  for(const line of input_lines) {
+    console.log(100+line*10); 
   }
 });
