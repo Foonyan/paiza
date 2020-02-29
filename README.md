@@ -68,20 +68,29 @@ npm install
 
 javaScriptの場合以下を書いた方が良い。
 ```
- 'use strict'
+'use strict'
 ```
 
+## テストケースの作成
+index.jsの場合、index.test.jsを作成し、
+テストケースを作成する。
 
 ## コミットメモ
 
 編集と追加
 ```
 git add <ファイル名 or *(全ファイル)>
-git commit -m "<フィいる名>"
+git commit -m "<ファイル名>"
 ```
 
 ブランチへのpush
 ```
 git push origin <ブランチ名>
+```
+
+リモートブランチをローカルにチェックアウト
+```
+git checkout -b <ローカルブランチ名> <リモートブランチ名>
+git checkout -b d095 origin/d095
 ```
 
