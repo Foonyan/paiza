@@ -1,0 +1,15 @@
+{
+  "name": "d102",
+  "version": "1.0.0",
+  "description": "あなたは単純な運賃計算のプログラムを作成しています。",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
