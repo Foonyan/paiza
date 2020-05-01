@@ -17,5 +17,5 @@ reader.on('close', () => {
   // ヒント: input_lines[0]に1行目の値が保存されている
   const stockTrade = new StockTrade(...input_lines[0].split(' '));
   const result = stockTrade.trade(input_lines.slice(1));
-  console.log('execute logic by using user_logic');
+  console.log(result.toString());
 });
