@@ -1,0 +1,14 @@
+{
+  "name": "c078",
+  "version": "1.0.0",
+  "description": "あなたは、株の売買でのお金儲けを考えています。 N 日の間、1 日に一度株価をチェックし、以下のルールに従い売買をします。",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.5.3"
+  }
+}
